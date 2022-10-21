@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbar {
+    background: transparent;
+    border: none;
+
+
+}
+
+li:hover {
+    background-color: rgb(227, 227, 227);
+}
+
+p {
+    color: black;
+}
+
+
+input {
+    width: 50%;
+    padding: 10px 20px 10px 40px;
+    background: transparent;
+    border-radius: 50px;
+
+}
+
+button {
+    background: transparent;
+    border: none;
+
+}
+
+.fa-sharp {
+
+    margin-right: -90px;
+}
+
+.fa-solid {
+    margin-left: -45px;
+}
+
+
+
+
+.logos {
+    padding: 0px;
+    display: block;
+    margin-top: 30px;
+
+
+
+}
+
+.mail {
+
+    padding-left: 200px;
+}
+
+.drive {
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 12px;
+}
+
+.meet {
+
+    padding-right: -200px;
+}
+
+.facebook {
+    margin-top: 6%;
+}
+
+.photos {
+
+    margin-top: -3.5%;
+}
+
+.calander {
+    border: 5px solid red;
+}
+
+.Google-Image {
+    margin-top: -3%;
+
+}
+
+.bookmarks {
+
+    width: 20%;
+    margin: 3% auto;
+    padding: none;
+
+}
+
+.site {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+
+}
+
+.site:hover {
+    background-color: rgb(249, 246, 246);
+}
+
+input {
+    margin-top: -8%;
+    width: 60%;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    ul {
+
+        display: flex;
+
+
+    }
+
+    li {
+
+        margin-left: -2%;
+    }
+
+    .Google-Image {
+        margin-right: 25%;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+
+    .Google-Image {
+        transform: translateX(50px);
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+
+    .Google-Image {
+        transform: translateX(70px);
+        margin-bottom: 20px;
+
+    }
+}
+
+
+
+
+
+
+.site i {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 20px;
+
+    text-align: center;
+    padding-top: 12px;
+
+}
+
+.site p {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.fa-envelope {
+    color: red;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-facebook {
+    color: #4267B2;
+}
+
+.fa-linkedin {
+    color: #4267B2;
+}
+
+.fa-instagram {
+    color: #405DE6;
+}
+
+.fa-google-drive {
+    color: rgb(212, 230, 56);
+}
+
+.fa-microphone:hover {
+    background-color: rgb(210, 209, 209);
+
+
+}
